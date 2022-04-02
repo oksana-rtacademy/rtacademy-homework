@@ -1,0 +1,15 @@
+form {
+    display: table;
+}
+form div {
+    display: table-row;
+}
+form label, form input {
+    display: table-cell;
+    width: 30em;
+}
+form label {
+    width: 20em;
+    padding-right: 1em;
+    text-align: right;
+}

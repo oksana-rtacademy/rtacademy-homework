@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;  /* nowrap */
+}
+.wrapper div {
+    background-color: #cfe8dc;
+    padding: 1em;
+    margin: 0.1em;
+    flex: 1 0 auto;
+    width: 45%; /* задаємо розмір елемента */
+}

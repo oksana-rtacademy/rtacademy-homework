@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронювання залу</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Перша сторінка</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+    </nav>
+    <form action="" method="post">
+        <div>
+            <div>
+                <h1>Бронювання залу фотостудії</h1>
+            </div>
+            <div>
+                <label for="surname">* Прізвище:</label>
+                <br>
+                <input type="text" id="surname" name="usersurname" required minlength="2" maxlength="64" placeholder="Введіть прізвище">
+            </div>
+            <div>
+                <label for="name">* Імʼя:</label>
+                <br>
+                <input type="text" id="name" name="username" required minlength="2" maxlength="64" placeholder="Введіть ім'я">
+            </div>
+            <div>
+                <label for="mail">* Email:</label>
+                <br>
+                <input type="email" id="mail" name="usermail" required minlength="6" maxlength="255" placeholder="Введіть email">
+            </div>
+            <div>
+                <label for="phone">* Телефон:</label>
+                <br>
+                <input type="tel" id="phone" name="phone" required placeholder="+380000000000">
+            </div>
+            <div>
+                <label for="profile">Профіль Instagram:</label>
+                <br>
+                <input type="url" id="profile" name="profile">
+            </div>
+            <div>
+                <label>* Зал:</label>
+                <br>
+                <select id="zal">
+                    <option>Оберіть зал</option>
+                    <option>Зал 1</option>
+                    <option>Зал 2</option>
+                    <option>Зал 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="datetimelocal">* Дата і час початку:</label>
+                <br>
+                <input type="datetime-local" name="datetimelocal" id="datetimelocal" min="2022-02-01T00:00" max="2022-12-31T23:59">
+            </div>
+            <div>
+                <label for="datetimelocalend">* Дата і час кінця:</label>
+                <br>
+                <input type="datetime-local" name="datetimelocalend" id="datetimelocalend" min="2022-02-01T00:00" max="2022-12-31T23:59">
+            </div>
+            <div>
+                <label for="people">* Кількість людей в залі:</label>
+                <br>
+                <input type="number" id="people" name="people" required min="1" max="10" step="1">
+            </div>
+            <div>
+                <label>Колір фона:</label>
+                <br>
+                <input type="color">
+            </div>
+            <div>
+                <label>Коментар:</label>
+                <br>
+                <textarea rows="3" cols="25"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="agree" name="agree" value="agree">
+                <label>* Я погоджуюсь з <a href="https://rtacademy.net/v3/02.pdf">правилами фотостудії</a></label>
+            </div>
+            <div>
+                <button type="reset">Очистити</button>
+                <button type="submit">Надіслати</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.box {
+    width: 640px;
+    margin: 0;
+    padding: 40px;
+    border: none;
+    background-color: #457b9d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* ці стилі будуть застосовуватися тільки для звичайних екранів пристроїв,
+    у яких ширина від 320px до 640px */
+    .box {
+        background-color: #e9c46a;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* ці стилі будуть застосовуватися тільки для звичайних екранів пристроїв,
+    у яких ширина від 320px до 640px */
+    .box {
+        background-color: #f4a261;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    /* ці стилі будуть застосовуватися тільки для звичайних екранів пристроїв,
+    у яких ширина від 320px до 640px */
+    .box {
+        background-color: #e76f51;
+        color: #ffffff;
+    }
+}

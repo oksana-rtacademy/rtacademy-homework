@@ -1,0 +1,9 @@
+.wrapper div {
+    background-color: #cfe8dc;
+    padding: 1em;
+    margin: 0.1em;
+    flex: 1 0 auto; /* <flex-grow> <flex-shrink> <flex-basis> */
+}
+.wrapper {
+    display: flex;
+}

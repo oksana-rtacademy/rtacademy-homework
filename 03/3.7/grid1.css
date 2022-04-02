@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 8em 1fr 1fr;
+    grid-template-rows: 5em 10em;
+    /* 5em - перший ряд, 10em - другий ряд */
+    grid-gap: 0.25em; /* 0.25em - відступ між блоками */
+}
+.wrapper div {
+    background-color: #cfe8dc;
+    padding: 1em;
+}
