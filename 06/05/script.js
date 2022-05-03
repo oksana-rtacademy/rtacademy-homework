@@ -14,7 +14,7 @@ function capitalize( cityName )
 
         for( i = 0; i < cityName.length; i++ )
         {
-            let lower = cityName[ i ].toLowerCase();
+            let lower = cityName[ i ].toString().toLowerCase();
             let first = lower[ 0 ].toUpperCase();
             result = first + lower.substring( 1 );
             cityArray.push( result );
@@ -36,6 +36,6 @@ function capitalize( cityName )
     }
 }
 
-let cityNameCapitalized = capitalize( [ "лЬвів", "одеСА", "хАРКіВ", "стОКГольМ" ] );
+let cityNameCapitalized = capitalize( ["привіт", [ [ "cвіт" ] ] ] );
 // ще варіанти: ["лЬвів", "одеСА", "хАРКіВ", "стОКГольМ"]
 console.log( cityNameCapitalized );
