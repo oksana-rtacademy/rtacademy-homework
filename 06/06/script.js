@@ -36,6 +36,7 @@ function capitalize( cityName )
     }
 }
 
-let cityNameCapitalized = capitalize( ["привіт", [ [ "cвіт" ] ] ] );
+let cityNameCapitalized = capitalize( [ "привіт", [ [ "cвіт" ] ] ] );
 // ще варіанти: ["лЬвів", "одеСА", "хАРКіВ", "стОКГольМ"]
+// [ "привіт", [ [ "cвіт" ] ] ]
 console.log( cityNameCapitalized );
