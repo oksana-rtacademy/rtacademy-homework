@@ -1,4 +1,4 @@
-function capitalize( cityName )
+const capitalize = function( cityName )
 {
     if( typeof cityName === 'string' )
     {
@@ -25,7 +25,7 @@ function capitalize( cityName )
     }
 
     return "";
-}
+};
 
 let cityNameCapitalized = capitalize( ["лЬвів", [ [ "одеСА", [ [ "хАРКіВ" ] ], "стОКГольМ" ] ]] );
 // ще варіанти: ["лЬвів", "одеСА", "хАРКіВ", "стОКГольМ"]
